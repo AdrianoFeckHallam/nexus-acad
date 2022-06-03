@@ -1,0 +1,263 @@
+section.meetings-page {
+    background-color: #13293D;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 0px;
+  }
+  
+ 
+  section.meetings-page .pagination {
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    display: inline-block;
+  }
+  
+  section.meetings-page .pagination ul li {
+    display: inline-block;
+  }
+  
+  section.meetings-page .pagination ul li a {
+    width: 40px;
+    height: 40px;
+    background-color: #2D3F91;
+    border-radius: 10px;
+    color: #E8F1F2;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 15px;
+    transition: all .3s;
+  }
+  
+  
+  
+  section.meetings-page .pagination ul li.active a,
+  section.meetings-page .pagination ul li a:hover {
+    background-color: #E8F1F2;
+    color: #2D3F91;
+  }
+  
+  .meeting-single-item .thumb {
+    position: relative;
+  }
+  
+  .meeting-single-item .thumb img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  
+  
+  .meeting-single-item .down-content {
+    background-color: #fff;
+    padding: 40px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  
+  .meeting-single-item .down-content h4 {
+    font-size: 22px;
+    color: #1f272b;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+  
+  .meeting-single-item .down-content h5 {
+    font-size: 18px;
+    color: #1f272b;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+  
+  .meeting-single-item .down-content p {
+    color: #1f272b;
+    font-size: 14px;
+  }
+  
+  .meeting-single-item .down-content p.description {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid #eee;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .meeting-single-item .down-content .share {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid #eee;
+  }
+  
+  .meeting-single-item .down-content .share h5 {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 0px;
+  }
+  
+  .meeting-single-item .down-content .share ul li {
+    display: inline;
+  }
+  
+  .meeting-single-item .down-content .share ul li a {
+    font-size: 14px;
+    color: #1f272b;
+    transition: all .3s;
+  }
+  
+ 
+  .templatemo-item-col {
+      width: 31%;
+  }
+  
+  @media (max-width: 992px) {
+      .templatemo-item-col {
+          width: 45%;
+      }
+  }
+  
+  @media (max-width: 767px) {
+      .templatemo-item-col {
+          width: 100%;
+      }
+  }
+
+
+/*
+  ---------------------------------------------------------------------------------------------------------------------
+  Section workshops e oficinas
+  ---------------------------------------------------------------------------------------------------------------------
+
+  */
+
+  section.upcoming-meetings {
+    background-image: url(../images/meetings-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 5px;
+  }
+  
+  section.upcoming-meetings .section-heading {
+    text-align: center;
+  }
+  
+  section.upcoming-meetings .categories {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 40px;
+    margin-right: 45px;
+  }
+  
+  section.upcoming-meetings .categories h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #f5a425;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #3e3e3ead;
+  }
+  
+  section.upcoming-meetings .categories ul li {
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+  
+  section.upcoming-meetings .categories ul li a {
+    font-size: 15px;
+    color: #13293D;
+    font-weight: 500;
+    transition: all .3s;
+  }
+  
+  section.upcoming-meetings .categories ul li a:hover {
+    color: #f5a425;
+  }
+  
+  section.upcoming-meetings .categories .main-button-blue {
+    border-top: 1px solid #3e3e3ead;
+    padding-top: 30px;
+    margin-top: 15px;
+  }
+  
+  section.upcoming-meetings .categories .main-button-blue a {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .meeting-item {
+    margin-bottom: 30px;
+  }
+  
+  .meeting-item .thumb {
+    position: relative;
+  }
+  
+  .meeting-item .thumb img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  
+  .meeting-item .thumb .price {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+  }
+  
+  .meeting-item .thumb .price span {
+    font-size: 16px;
+    color: #1f272b;
+    font-weight: 600;
+    background-color: rgba(250,250,250,0.9);
+    padding: 7px 12px;
+    border-radius: 10px;
+  }
+  
+  .meeting-item .down-content {
+    background-color: #fff;
+    padding: 30px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  .meeting-item .down-content .date {
+    text-align: center;
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .meeting-item .down-content .date h6 {
+    font-size: 13px;;
+    font-weight: 600;
+    color: #a12c2f;
+  }
+  
+  .meeting-item .down-content .date span {
+    display: block;
+    color: #1f272b;
+    font-size: 22px;
+    margin-top: 5px;
+  }
+  
+  .meeting-item .down-content h4 {
+    font-size: 18px;
+    color: #1f272b;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+  
+  .meeting-item .down-content p {
+    margin-left: 50px;
+    color: #1f272b;
+    font-size: 14px;
+   
+  }
+  
+  
