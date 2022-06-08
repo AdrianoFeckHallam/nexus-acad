@@ -87,9 +87,9 @@ submitBtn.addEventListener('click', () =>{
 			loadQuiz();
 		}else{
 			if(score > 2){
-				quiz.innerHTML = '<br><h2>&nbsp;Você acertou '+score+'/'+quizData.length+' das questões</h2><br><button onclick="location.replace(\'cursoJava2.html\');)">Próxima Aula</button><button onclick="location.reload()">Reiniciar</button>';	
+				quiz.innerHTML = '<br><h2 style="color: #F4AF1B;">&nbsp;Você acertou '+score+'/'+quizData.length+' das questões!</h2><br><button style="background-color: #F4AF1B;" onclick="location.replace(\'cursoJava2.html\');">Próxima Aula</button><br><button onclick="location.reload()">Reiniciar</button>';	
 			}else{
-				quiz.innerHTML = '<br><h2>&nbsp;Você acertou '+score+'/'+quizData.length+' das questões</h2><br><button onclick="location.replace(\'cursoJava.html\');">Reassistir Aula</button><button onclick="location.reload()">Reiniciar</button>';
+				quiz.innerHTML = '<br><h2 style="color: #F4AF1B;">&nbsp;Você acertou '+score+'/'+quizData.length+' das questões!</h2><br><button style="background-color: #F4AF1B;" onclick="location.replace(\'cursoJava.html\');">Reassistir Aula</button><br><button  onclick="location.reload()">Reiniciar</button>';
 			}
 		}
 	}
